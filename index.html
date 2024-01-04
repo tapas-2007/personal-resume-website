@@ -38,7 +38,8 @@
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
-                <h1>Hey There!<br>I am Tapas Soni.<br>I am a web developer.</h1>
+                <h1>Hey There!<br>I am Tapas Soni.<br> <span id="element"></span>
+                </h1>
                 <button class="cta">Contact us
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -265,5 +266,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['I am web-developer ', 'I am web-desginer','I am gamer','I am Multitasking Boy&#128516;'],
+    typeSpeed: 20,
+  });
+</script>
 </body>
 </html>
